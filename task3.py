@@ -10,4 +10,6 @@ try:
           count=count+1
 
 except FileNotFoundError:
-  print()
+  print('файл не обнаружен')
+
+print('Общее количество слов', count)
